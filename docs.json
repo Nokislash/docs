@@ -100,8 +100,8 @@
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Viens nous rencontrer",
+      "href": "https://hub.playslash.xyz"
     }
   },
   "contextual": {
