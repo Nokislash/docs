@@ -3,15 +3,15 @@
   "theme": "mint",
   "name": "Mint Starter Kit",
   "background": {
-      "light" : "0018ff",
-      "dark" : "0018ff"
+      "light" : "#ff0000",
+      "dark" : "#ff0000"
       },
   "colors": {
     "primary": "#0018ff",
     "light": "#00ff2a",
     "dark": "#e50000"
   },
-  "favicon": "/vanim3.png",
+  "favicon": "/logo/dark.png",
   "navigation": {
     "tabs": [
       {
@@ -21,7 +21,7 @@
             "group": "Getting started",
             "pages": [
               "index",
-              "quickstart",
+              "Slash",
               "development"
             ]
           },
