@@ -3,22 +3,23 @@
   "theme": "mint",
   "name": "Mint Starter Kit",
   "background": {
+      "primary": "0013a4",
       "light" : "#0013a4",
       "dark" : "#0013a4"
       },
   "colors": {
-    "primary": "#0018ff",
+    "primary": "#0013a4",
     "light": "#00ff2a",
-    "dark": "#e50000"
+    "dark": "#0013a4"
   },
   "favicon": "/logo/dark.png",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Dashboard",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Introduction",
             "pages": [
               "index",
               "Slash",
@@ -26,14 +27,14 @@
             ]
           },
           {
-            "group": "Customization",
+            "group": "nous rejoindre",
             "pages": [
               "essentials/settings",
               "essentials/navigation"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Wressources",
             "pages": [
               "essentials/markdown",
               "essentials/code",
