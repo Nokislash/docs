@@ -2,6 +2,10 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "Mint Starter Kit",
+  "background": {
+      "light" : "0018ff",
+      "dark" : "0018ff"
+      },
   "colors": {
     "primary": "#0018ff",
     "light": "#00ff2a",
