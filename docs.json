@@ -54,6 +54,7 @@
             {
             "dropdown": "PROPRIÉTÉ",
             "pages": [
+              "quickstart"
               ]
           }
         ]
