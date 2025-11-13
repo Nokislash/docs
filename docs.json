@@ -25,7 +25,6 @@
             "group": "Hub",
             "pages": [
               "index",
-              "Slash",
               "development"
             ]
           },
