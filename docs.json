@@ -3,7 +3,7 @@
   "theme": "mint",
   "name": "Mint Starter Kit",
   "background": {
-    "decoration": "gradient",
+    "decoration": "grid",
     "color": {
       "light" : "#001bd2",
       "dark" : "#0d0d0d"
