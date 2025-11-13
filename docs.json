@@ -5,8 +5,8 @@
   "background": {
     "decoration": "gradient",
     "color": {
-      "light" : "#4a61fb",
-      "dark" : "#4a61fb"
+      "light" : "#001bd2",
+      "dark" : "#0d0d0d"
       }
       },
   "colors": {
