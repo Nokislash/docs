@@ -28,7 +28,6 @@
               "Slash",
               "development"
             ]
-            
           },
           {
             "group": "IMMERSION – Nouvelle ère pour les joueurs",
@@ -57,8 +56,6 @@
             {
             "dropdown": "PROPRIÉTÉ",
             "pages": [
-              "essentials/markdown",
-              "essentials/code"
               ]
           }
         ]
