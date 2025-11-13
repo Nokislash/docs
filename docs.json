@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "Mint Starter Kit",
   "background": {
-      "primary": "#0013a4",
-      "light" : "#0013a4",
-      "dark" : "#0013a4"
+      "primary": "#4a61fb",
+      "light" : "#4a61fb",
+      "dark" : "#4a61fb"
       },
   "colors": {
     "primary": "#0013a4",
@@ -78,7 +78,7 @@
         {
           "anchor": "Discord",
           "href": "https://mintlify.com/docs",
-          "icon": "Dis_icone.png"
+          "favicon": "Dis_icone.png"
         },
         {
           "anchor": "Blog",
