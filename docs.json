@@ -5,14 +5,14 @@
   "background": {
     "decoration": "grid",
     "color": {
-      "light" : "#000d39",
+      "light" : "#e8ebff",
       "dark" : "#000d39"
       }
       },
   "colors": {
-    "primary": "#a40000",
-    "light": "#001bd2",
-    "dark": "#000a52"
+    "primary": "#122ae4",
+    "light": "#0021ff",
+    "dark": "#0021ff"
   },
   "favicon": "/logo/dark.png",
   "navigation": {
