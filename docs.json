@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "Mint Starter Kit",
   "background": {
-    "decoration": "grid",
+    "decoration": "windows",
     "color": {
-      "light" : "#001bd2",
+      "light" : "#00ff2a",
       "dark" : "#000d39"
       }
       },
