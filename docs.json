@@ -31,14 +31,14 @@
             
           },
           {
-            "group": "nous rejoindre",
+            "group": "IMMERSION – Nouvelle ère pour les joueurs",
             "pages": [
               "essentials/settings",
               "essentials/navigation"
             ]
           },
           {
-            "group": "Wressources",
+            "group": "CONNAIS-TOI – Valorisation de la progression",
             "pages": [
               "essentials/markdown",
               "essentials/code",
@@ -47,12 +47,19 @@
             ]
           },
           {
-            "group": "AI tools",
+            "group": "CONVERGENCE – Fonctionnalités clés",
             "pages": [
               "ai-tools/cursor",
               "ai-tools/claude-code",
               "ai-tools/windsurf"
-            ]
+              ]
+            },
+            {
+            "group": "PROPRIÉTÉ",
+            "pages": [
+              "essentials/markdown",
+              "essentials/code"
+              ]
           }
         ]
       },
