@@ -24,15 +24,14 @@
           {
             "group": "Hub",
             "pages": [
-              "index",
-              "development"
+              "index"
             ]
           },
           {
             "group": "IMMERSION – Nouvelle ère pour les joueurs",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "testest",
+              "development"
             ]
           },
           {
