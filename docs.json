@@ -55,7 +55,7 @@
               ]
             },
             {
-            "group": "PROPRIÉTÉ",
+            "dropdown": "PROPRIÉTÉ",
             "pages": [
               "essentials/markdown",
               "essentials/code"
