@@ -19,7 +19,7 @@
     "tabs": [
       {
         "tab": "Slash",
-        "favicon": "/Logo_SVG.svg",
+        "icon": "/Logo_SVG.svg",
         "groups": [
           {
             "group": "Hub",
@@ -81,8 +81,8 @@
       "anchors": [
         {
           "anchor": "Discord",
-          "href": "https://mintlify.com/docs",
-          "icon": "/Dis_icone.png"
+          "href": "https://discord.gg/t8WtcmEvn4",
+          "icon": "/discord-icon-svgrepo-com.svg"
         },
         {
           "anchor": "Blog",
