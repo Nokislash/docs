@@ -63,11 +63,6 @@
         "tab": "Minecraft",
         "groups": [
           {
-            "group": "API documentation",
-            "pages": [
-            ]
-          },
-          {
             "group": "Endpoint examples",
             "pages": [
               "api-reference/endpoint/get",
