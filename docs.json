@@ -78,7 +78,7 @@
         {
           "anchor": "Discord",
           "href": "https://mintlify.com/docs",
-          "favicon": "Dis_icone.png"
+          "favicon": "/Dis_icone.png"
         },
         {
           "anchor": "Blog",
