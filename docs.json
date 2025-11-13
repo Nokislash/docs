@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "maple",
   "name": "Mint Starter Kit",
   "background": {
       "primary": "#4a61fb",
@@ -25,6 +25,7 @@
               "Slash",
               "development"
             ]
+            
           },
           {
             "group": "nous rejoindre",
