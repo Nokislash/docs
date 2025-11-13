@@ -60,12 +60,11 @@
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "Minecraft",
         "groups": [
           {
             "group": "API documentation",
             "pages": [
-              "api-reference/introduction"
             ]
           },
           {
