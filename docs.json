@@ -24,7 +24,8 @@
           {
             "group": "Hub",
             "pages": [
-              "index"
+              "index",
+              "quickstart"
             ]
           },
           {
