@@ -23,7 +23,7 @@
     "groups": [
       {
         "group": "Hub",
-        "pages": ["BienvenuedansSlash", "Conceptgeneral", "probleme", "Team" ]
+        "pages": ["index", "Conceptgeneral", "probleme", "Team" ]
       },
       {
         "group": "IMMERSION – Nouvelle ère pour les joueurs",
@@ -55,7 +55,7 @@
     "groups": [
       {
         "group": "PO",
-        "pages": ["index", "quickstart"]
+        "pages": ["quickstart"]
       }
     ]
   }
