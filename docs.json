@@ -27,23 +27,20 @@
       },
       {
         "group": "IMMERSION – Nouvelle ère pour les joueurs",
-        "pages": ["one", "trame", "acces"]
+        "pages": ["one", "trame", "acces","Identite"]
       },
       {
         "group": "CONNAIS-TOI – Valorisation de la progression",
         "pages": [
           "valorisation",
-          "interpretation",
-          "essentials/images",
-          "essentials/reusable-snippets"
+          "interpretation"
         ]
       },
       {
         "group": "CONVERGENCE – Fonctionnalités clés",
         "pages": [
-          "ai-tools/cursor",
-          "ai-tools/claude-code",
-          "ai-tools/windsurf"
+          "recomp",
+          "comp"
         ]
       },
       {
