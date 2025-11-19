@@ -23,17 +23,17 @@
     "groups": [
       {
         "group": "Hub",
-        "pages": ["index", "quickstart"]
+        "pages": ["Bienvenue dans Slash", "Conceptgeneral", "probleme", "Team" ]
       },
       {
         "group": "IMMERSION – Nouvelle ère pour les joueurs",
-        "pages": ["testest", "development"]
+        "pages": ["one", "trame", "acces"]
       },
       {
         "group": "CONNAIS-TOI – Valorisation de la progression",
         "pages": [
-          "essentials/markdown",
-          "essentials/code",
+          "valorisation",
+          "interpretation",
           "essentials/images",
           "essentials/reusable-snippets"
         ]
@@ -53,7 +53,7 @@
     ]
   },
   {
-    "tab": "ret",
+    "tab": "Minecraft",
     "icon": "/MC.svg",
     "groups": [
       {
