@@ -16,52 +16,53 @@
   },
   "favicon": "/logo/dark.png",
   "navigation": {
-    "tabs": [
+     "tabs": [
+  {
+    "tab": "Slash",
+    "icon": "/Logo_SVG.svg",
+    "groups": [
       {
-        "tab": "Slash",
-        "icon": "/Logo_SVG.svg",
-        "groups": [
-          {
-            "group": "Hub",
-            "pages": [
-              "index",
-              "quickstart"
-            ]
-          },
-          {
-            "group": "IMMERSION – Nouvelle ère pour les joueurs",
-            "pages": [
-              "testest",
-              "development"
-            ]
-          },
-          {
-            "group": "CONNAIS-TOI – Valorisation de la progression",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "CONVERGENCE – Fonctionnalités clés",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-              ]
-            },
-            {
-            "dropdown": "PROPRIÉTÉ",
-            "pages": [
-              "quickstart"
-              ]
-          }
-
+        "group": "Hub",
+        "pages": ["index", "quickstart"]
+      },
+      {
+        "group": "IMMERSION – Nouvelle ère pour les joueurs",
+        "pages": ["testest", "development"]
+      },
+      {
+        "group": "CONNAIS-TOI – Valorisation de la progression",
+        "pages": [
+          "essentials/markdown",
+          "essentials/code",
+          "essentials/images",
+          "essentials/reusable-snippets"
         ]
+      },
+      {
+        "group": "CONVERGENCE – Fonctionnalités clés",
+        "pages": [
+          "ai-tools/cursor",
+          "ai-tools/claude-code",
+          "ai-tools/windsurf"
+        ]
+      },
+      {
+        "group": "PROPRIÉTÉ",
+        "pages": ["quickstart"]
       }
-    ],
+    ]
+  },
+  {
+    "tab": "ret",
+    "icon": "/Logo_SVG.svg",
+    "groups": [
+      {
+        "group": "PO",
+        "pages": ["index", "quickstart"]
+      }
+    ]
+  }
+],
     "global": {
       "anchors": [
         {
