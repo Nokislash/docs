@@ -14,7 +14,7 @@
     "light": "#0021ff",
     "dark": "#0021ff"
   },
-  "favicon": "/Logo_SVG.svg",
+  "favicon": "/logo/logooo.png",
   "navigation": {
      "tabs": [
   {
@@ -78,7 +78,7 @@
   },
   "logo": {
     "light": "/logo/logooo.svg",
-    "dark": "/logo/logooo.png"
+    "dark": "/Logo_SVG.svg"
   },
   "navbar": {
     "links": [
