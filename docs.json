@@ -6,7 +6,7 @@
     "decoration": "grid",
     "color": {
       "light" : "#e8ebff",
-      "dark" : "#00062b"
+      "dark" : "#000e66"
       }
       },
   "colors": {
@@ -15,8 +15,8 @@
     "dark": "#0021ff"
   },
   "favicon": {
-  "dark": "/logo/kbjajba.png",
-  "light" :"/logo/sdaeaz.png"
+    "light" :"/logo/sdaeaz.png",
+  "dark": "/logo/kbjajba.png"
     },
   "navigation": {
      "tabs": [
