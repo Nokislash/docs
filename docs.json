@@ -34,7 +34,7 @@
         "pages": ["one", "trame", "acces","Identite"]
       },
       {
-        "dropdowns": "CONNAIS-TOI – Valorisation de la progression",
+        "groups": "CONNAIS-TOI – Valorisation de la progression",
         "icon": "masks-theater",
         "pages": [
           "valorisation",
