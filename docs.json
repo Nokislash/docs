@@ -25,6 +25,7 @@
       {
         "group": "Hub",
         "icon": "house-chimney-blank",
+        "iconType": "solide",
         "pages": ["index", "Conceptgeneral", "probleme", "Team" ]
       },
       {
@@ -33,7 +34,7 @@
         "pages": ["one", "trame", "acces","Identite"]
       },
       {
-        "group": "CONNAIS-TOI – Valorisation de la progression",
+        "dropdowns": "CONNAIS-TOI – Valorisation de la progression",
         "icon": "masks-theater",
         "pages": [
           "valorisation",
