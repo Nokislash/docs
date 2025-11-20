@@ -6,7 +6,7 @@
     "decoration": "grid",
     "color": {
       "light" : "#e8ebff",
-      "dark" : "#000942"
+      "dark" : "#010031"
       }
       },
   "colors": {
@@ -26,7 +26,7 @@
     "groups": [
       {
         "group": "Hub",
-        "icon": "/1111.svg",
+        "icon": "house-chimney-blank",
         "pages": ["index", "Conceptgeneral", "probleme", "Team" ]
       },
       {
@@ -67,7 +67,7 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Discord",
+          "anchor": "Rejoins nous",
           "href": "https://discord.gg/t8WtcmEvn4",
           "icon": "/dsds.svg"
         },
@@ -87,13 +87,13 @@
     "links": [
       {
         "type" : "github",
-        "label": "Support",
+        "label": "FAQ",
         "href": "mailto:hi@mintlify.com"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Viens nous rencontrer",
+      "label": "Rencontre nous",
       "href": "https://hub.playslash.xyz"
     }
   },
