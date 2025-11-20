@@ -21,7 +21,7 @@
   {
     "tab": "Slash",
     "icon": "/Logo_SVG.svg",
-    "groups": [
+    "group": [
       {
         "group": "Hub",
         "icon": "house-chimney-blank",
