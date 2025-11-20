@@ -14,7 +14,10 @@
     "light": "#0021ff",
     "dark": "#0021ff"
   },
-  "favicon": "/logo/kbjajba.png",
+  "favicon": {
+  "dark": "/logo/kbjajba.png",
+  "light" :"/sdaeaz.png"
+    },
   "navigation": {
      "tabs": [
   {
