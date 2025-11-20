@@ -51,7 +51,7 @@
   },
   {
     "tab": "Minecraft",
-    "icon": "/MC.svg",
+    "icon": "/Minecrafttt.svg",
     "groups": [
       {
         "group": "PO",
@@ -65,7 +65,7 @@
         {
           "anchor": "Discord",
           "href": "https://discord.gg/t8WtcmEvn4",
-          "icon": "dslo.svg"
+          "icon": "/Logo_SVG.svg"
         },
         {
           "anchor": "Blog",
