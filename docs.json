@@ -23,7 +23,7 @@
     "groups": [
       {
         "group": "Hub",
-        "icon": "111",
+        "icon": "/111.svg",
         "pages": ["index", "Conceptgeneral", "probleme", "Team" ]
       },
       {
