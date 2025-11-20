@@ -15,10 +15,7 @@
     "light": "#0021ff",
     "dark": "#0021ff"
   },
-  "favicon": {
-    "light" :"/logo/sdaeaz.png",
-  "dark": "/logo/kbjajba.png"
-    },
+  "favicon": "/logo/kbjajba.png",
   "navigation": {
      "tabs": [
   {
@@ -81,7 +78,7 @@
     }
   },
   "logo": {
-    "light": "/logo/logooo.svg",
+    "light": "/sdaeaz.png",
     "dark": "/LOO.png"
   },
   "navbar": {
