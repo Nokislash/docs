@@ -14,12 +14,12 @@
     "light": "#0021ff",
     "dark": "#0021ff"
   },
-  "favicon": "/logo/dark.png",
+  "favicon": "/logo/logooo.png",
   "navigation": {
      "tabs": [
   {
     "tab": "Slash",
-    "icon": "/logo/logooo.png",
+    "icon": "/logo/dark.png",
     "groups": [
       {
         "group": "Hub",
