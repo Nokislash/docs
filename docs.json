@@ -14,12 +14,12 @@
     "light": "#0021ff",
     "dark": "#0021ff"
   },
-  "favicon": "/logo/logooo.png",
+  "favicon": "/Logo_SVG.svg",
   "navigation": {
      "tabs": [
   {
     "tab": "Slash",
-    "icon": "/logo/dark.png",
+    "icon": "",
     "groups": [
       {
         "group": "Hub",
@@ -107,9 +107,9 @@
   },
   "footer": {
     "socials": {
-      "discord": "https://discord.gg/t8WtcmEvn4",
+      "x": "https://x.com/mintlify",
       "github": "https://github.com/mintlify",
-      "linkedin": "https://fr.linkedin.com/company/slash-esports"
+      "linkedin": "https://linkedin.com/company/mintlify"
     }
   }
 }
