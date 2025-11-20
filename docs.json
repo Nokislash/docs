@@ -2,7 +2,7 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "Mint Starter Kit",
-  "​default": "dark",
+ "default": "dark",
   "background": {
     "decoration": "grid",
     "color": {
@@ -21,11 +21,11 @@
   {
     "tab": "Slash",
     "icon": "/Logo_SVG.svg",
-    "group": [
+    "groups": [
       {
         "group": "Hub",
         "icon": "house-chimney-blank",
-        "iconType": "solide",
+        "iconType": "solid",
         "pages": ["index", "Conceptgeneral", "probleme", "Team" ]
       },
       {
@@ -34,7 +34,7 @@
         "pages": ["one", "trame", "acces","Identite"]
       },
       {
-        "groups": "CONNAIS-TOI – Valorisation de la progression",
+        "group": "CONNAIS-TOI – Valorisation de la progression",
         "icon": "masks-theater",
         "pages": [
           "valorisation",
