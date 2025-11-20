@@ -68,9 +68,9 @@
           "icon": "/dsds.svg"
         },
         {
-          "anchor": "Blog",
+          "anchor": "RoadMap",
           "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "icon": "road"
         }
       ]
     }
@@ -82,6 +82,7 @@
   "navbar": {
     "links": [
       {
+        "type" : "github",
         "label": "Support",
         "href": "mailto:hi@mintlify.com"
       }
