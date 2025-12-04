@@ -60,7 +60,7 @@
     "groups": [
       {
         "group": "PO",
-        "pages": ["quickstart"]
+        "pages": ["IntroductionMC"]
       }
     ]
   }
