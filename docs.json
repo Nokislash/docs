@@ -59,7 +59,11 @@
     "icon": "/Minecrafttt.svg",
     "groups": [
       {
-        "group": "PO",
+        "group": "Mode de jeux",
+        "pages": ["IntroductionMC"]
+      },
+       {
+        "group": "Pourquoi Minecraft",
         "pages": ["IntroductionMC"]
       }
     ]
