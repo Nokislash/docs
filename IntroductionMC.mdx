@@ -5,15 +5,36 @@ description: 'Description of your new file.'
 <!-- Changelog Widget -->
 <script type="text/javascript">!function(b,c,f,d,a,e){b.dclsPxl||(((d=b.dclsPxl=function(){d.callMethod?d.callMethod.apply(d,arguments):d.queue.push(arguments)}).push=d).queue=[],(a=c.createElement("script")).async=!0,a.src=f,(e=c.getElementsByTagName("script")[0]).parentNode.insertBefore(a,e))}(window,document,"https://ducalis.io/js/widget.js");
     dclsPxl("initWidget", {
-   ...
-   // required for Voting board embedding as a frame
-   embedBoard: {
-       // css-selector where to render voting board
-       selector: "#example-id-selector-where-show-iframe",
-       // optional, iframe styles object, e.g. "style: {position: 'absolute', top: 0}"
-       style: undefined,
-   },
-   ...
+    // Required
+    appId: "b13c342bcf06b4044a19f748e37a9991deecbec5",
+    boardId: "019b9eee-1967-84ee-9d5b-9a3fd1ecd432",
+
+    user: {
+        // Required
+        email: "kioua.nolann@gmail.com",
+        hash: "mkpWpGGjvmbGaNzENIZ_X4RvLePRTTAl",
+
+        // Optional
+        userID: "Your user ID",
+        name: "Your user Name",
+        avatar: "https://you-user-avatar-domain/avatar.png",
+        company: {
+            id: 123,
+            name: "Your user Company name",
+            customFields: {
+                created_at: "2019-06-02 17:10:00",
+                spend: 123000,
+                mrr: 100,
+                plan: "pro",
+                prop: value,
+            }
+        }
+    },
+
+    // Required for Voting Board embedding
+    embedBoard: {
+        selector: "#selector-where-show-iframe", // CSS selector where to render Voting Board
+        style: undefined, // Optional, iframe styles object, e.g. "style: {position: 'absolute', top: 0}"
+    },
 });
-</script>
 <!-- End Changelog Widget -->
