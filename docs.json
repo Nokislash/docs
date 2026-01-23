@@ -17,72 +17,88 @@
   },
   "favicon": "/logo/kbjajba.png",
   "navigation": {
-     "tabs": [
-  {
-    "tab": "Slash",
-    "icon": "/Logo_SVG.svg",
-    "groups": [
-      {
-        "group": "Hub",
-        "icon": "house-chimney-blank",
-        "iconType": "solid",
-        "pages": ["index", "Conceptgeneral", "probleme", "Team" ]
-      },
-      {
-        "group": "IMMERSION – Nouvelle ère pour les joueurs",
-        "icon" : "person-from-portal",
-        "pages": ["one", "trame", "acces","cartouche"]
-      },
-      {
-        "group": "CONNAIS-TOI – Valorisation de la progression",
-        "icon": "masks-theater",
-        "pages": [
-          "valorisation",
-          "interpretation"
-        ]
-      },
-      {
-        "group": "CONVERGENCE – Fonctionnalités clés",
-        "pages": [
-          "recomp",
-          "comp"
-        ]
-      },
-      {
-        "group": "PROPRIÉTÉ",
-        "pages": ["quickstart"]
-      }
-    ]
-  },
-  {
-    "tab": "Minecraft",
-    "icon": "/Minecrafttt.svg",
-    "groups": [
-      {
-        "group": "Mode de jeux",
-        "pages": ["IntroductionMC"]
-      },
-       {
-        "group": "Pourquoi Minecraft",
-        "pages": ["IntroductionMC"]
-      }
-    ]
-  }
-],
     "global": {
       "anchors": [
         {
           "anchor": "Rejoins nous",
-          "href": "https://discord.gg/t8WtcmEvn4",
-          "icon": "/dsds.svg"
+          "icon": "/dsds.svg",
+          "href": "https://discord.gg/t8WtcmEvn4"
         },
         {
           "anchor": "RoadMap",
-          "href": "https://mintlify.com/blog",
-          "icon": "road"
+          "icon": "road",
+          "href": "/roadmap"
         }
       ]
-    }
+    },
+    "tabs": [
+      {
+        "tab": "Slash",
+        "icon": "/Logo_SVG.svg",
+        "groups": [
+          {
+            "group": "Hub",
+            "icon": "house-chimney-blank",
+            "pages": [
+              "index",
+              "slash/hub/road-map",
+              "Conceptgeneral",
+              "probleme",
+              "Team"
+            ]
+          },
+          {
+            "group": "IMMERSION – Nouvelle ère pour les joueurs",
+            "icon": "person-from-portal",
+            "pages": [
+              "one",
+              "trame",
+              "acces",
+              "cartouche"
+            ]
+          },
+          {
+            "group": "CONNAIS-TOI – Valorisation de la progression",
+            "icon": "masks-theater",
+            "pages": [
+              "valorisation",
+              "interpretation"
+            ]
+          },
+          {
+            "group": "CONVERGENCE – Fonctionnalités clés",
+            "pages": [
+              "recomp",
+              "comp"
+            ]
+          },
+          {
+            "group": "PROPRIÉTÉ",
+            "pages": [
+              "quickstart"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Minecraft",
+        "icon": "/Minecrafttt.svg",
+        "groups": [
+          {
+            "group": "Mode de jeux",
+            "pages": [
+              "IntroductionMC"
+            ]
+          },
+          {
+            "group": "Pourquoi Minecraft",
+            "pages": [
+              "IntroductionMC"
+            ]
+          }
+        ]
+      }
+    ]
   },
   "logo": {
     "light": "/LOOV.png",
@@ -91,9 +107,9 @@
   "navbar": {
     "links": [
       {
-        "type" : "github",
-        "label": "FAQ",
-        "href": "mailto:hi@mintlify.com"
+        "type": "github",
+        "label": "Pilotage",
+        "href": "https://pilotage.playslash.xyz/general"
       }
     ],
     "primary": {
@@ -120,5 +136,8 @@
       "x": "https://x.com/Slashgames",
       "linkedin": "https://fr.linkedin.com/company/slash-esports"
     }
+  },
+  "appearance": {
+    "default": "dark"
   }
 }
