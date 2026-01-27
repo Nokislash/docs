@@ -37,8 +37,8 @@
         "icon": "/Logo_SVG.svg",
         "groups": [
           {
-            "group": "Hub",
-            "icon": "house-chimney-blank",
+            "group": "Acceuil",
+            "icon": "house",
             "pages": [
               "index",
               "slash/hub/road-map",
@@ -81,19 +81,32 @@
         ]
       },
       {
-        "tab": "Minecraft",
+        "tab": "Minecraft - Le Hub central",
         "icon": "/Minecrafttt.svg",
         "groups": [
           {
-            "group": "Mode de jeux",
+            "group": "Acceuil",
+            "pages": [
+              "IntroductionMC",
+              "universel/acceuil/untitled-page",
+              "universel/acceuil/pourquoi-minecraft"
+            ]
+          },
+          {
+            "group": "Valorisation - Le hub ?",
+            "icon": "earth-africa",
             "pages": [
               "IntroductionMC"
             ]
           },
           {
-            "group": "Pourquoi Minecraft",
+            "group": "Rassemblement - Central ?",
+            "icon": "arrows-minimize",
             "pages": [
-              "IntroductionMC"
+              {
+                "group": "Untitled Group",
+                "pages": []
+              }
             ]
           }
         ]
