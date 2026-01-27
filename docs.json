@@ -94,11 +94,6 @@
             ]
           },
           {
-            "group": "Rassemblement - Central",
-            "icon": "chart-network",
-            "pages": []
-          },
-          {
             "group": "Valorisation - Le hub ?",
             "icon": "earth-africa",
             "pages": [
@@ -106,19 +101,25 @@
             ]
           },
           {
+            "group": "Rassemblement - Central",
+            "icon": "chart-network",
+            "pages": [
+              "untitled-page"
+            ]
+          },
+          {
             "group": "Construire sur Slash",
             "icon": "handshake-angle",
             "pages": [
-              {
-                "group": "Untitled Group",
-                "pages": []
-              }
+              "untitled-page"
             ]
           },
           {
             "group": "FAQ",
             "icon": "comments-question-check",
-            "pages": []
+            "pages": [
+              "minecraft-le-hub-central/faq/kbjezabjkeza"
+            ]
           }
         ]
       }
