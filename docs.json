@@ -86,11 +86,17 @@
         "groups": [
           {
             "group": "Acceuil",
+            "icon": "house",
             "pages": [
               "IntroductionMC",
               "universel/acceuil/untitled-page",
               "universel/acceuil/pourquoi-minecraft"
             ]
+          },
+          {
+            "group": "Rassemblement - Central",
+            "icon": "chart-network",
+            "pages": []
           },
           {
             "group": "Valorisation - Le hub ?",
@@ -100,14 +106,19 @@
             ]
           },
           {
-            "group": "Rassemblement - Central ?",
-            "icon": "arrows-minimize",
+            "group": "Construire sur Slash",
+            "icon": "handshake-angle",
             "pages": [
               {
                 "group": "Untitled Group",
                 "pages": []
               }
             ]
+          },
+          {
+            "group": "FAQ",
+            "icon": "comments-question-check",
+            "pages": []
           }
         ]
       }
