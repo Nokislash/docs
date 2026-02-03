@@ -163,5 +163,13 @@
   },
   "appearance": {
     "default": "dark"
+  },
+  "errors": {
+    "404": {
+      "redirect": true
+    }
+  },
+  "fonts": {
+    "family": "Geist"
   }
 }
