@@ -41,10 +41,9 @@
             "icon": "house",
             "pages": [
               "index",
-              "slash/hub/road-map",
+              "Team",
               "Conceptgeneral",
-              "probleme",
-              "Team"
+              "probleme"
             ]
           },
           {
@@ -81,7 +80,7 @@
         ]
       },
       {
-        "tab": "Minecraft - Le Hub central",
+        "tab": "Analyse",
         "icon": "/Minecrafttt.svg",
         "groups": [
           {
