@@ -169,13 +169,12 @@
     }
   },
   "fonts": {
-    "family": "Ari-W9500 Display",
-    "weight": 200,
-    "heading": {
-      "family": "Ari-W9500 Display"
+    "heading" : { 
+      "family" :"Ari-W9500 Display"
     },
     "body": {
-      "family": "Ari-W9500 Display"
+      "family": "Inter"
     }
   }
 }
+
