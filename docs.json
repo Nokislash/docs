@@ -6,10 +6,10 @@
   "background": {
     "decoration": "grid",
     "color": {
-      "light" : "#e8ebff",
-      "dark" : "#010031"
-      }
-      },
+      "light": "#e8ebff",
+      "dark": "#000015"
+    }
+  },
   "colors": {
     "primary": "#122ae4",
     "light": "#0021ff",
@@ -170,6 +170,7 @@
     }
   },
   "fonts": {
-    "family": "Geist"
+    "family": "Geist",
+    "weight": 200
   }
 }
