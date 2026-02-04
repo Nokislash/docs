@@ -169,8 +169,9 @@
     }
   },
   "fonts": {
+    "family": "/Ari-W9500-Display.woff2",
     "heading": {
-      "family": "Ari-W9500 Display"
+      "family": "/Ari-W9500-Display.woff2"
     },
     "body": {
       "family": "Sora",
