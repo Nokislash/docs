@@ -44,7 +44,7 @@ Le langage de l’interface doit donc rejeter les clichés du jeu vidéo et adop
 
 A l'interieur de son identité centrale : deux entités strictemen distinctes dans la base de données.
 
-###   Entité A : Le SLSH ID (La Donnée Machine / Back-end)
+### Entité A : Le SLSH ID (La Donnée Machine / Back-end)
 
 C'est une suite alphanumérique unique et immuable . C'est la clé de voûte du système (et le futur lien vers les adresses cryptographiques / Web3).
 
@@ -55,7 +55,7 @@ C'est une suite alphanumérique unique et immuable . C'est la clé de voûte du 
 
 ---
 
-###   Entité B : L**e** Nom + Clés (L'Affichage Public / Front-end)
+### Entité B : L**e** Nom + Clés (L'Affichage Public / Front-end)
 
 C'est l'identifiant social de l'utilisateur.
 
@@ -77,13 +77,13 @@ C'est l'identifiant social de l'utilisateur.
 
   1. **La mort du "Gamer Tag" toxique et des répétitions ridicules :** En interdisant les chiffres et symboles dans le nom, et en gérant l'unicité via les clés (3chiffres aléatoires + la lettre choisie), on élimine instantanément les pseudos de type `xX_DarkSasuke_Xx`. Mais surtout, on met fin aux répétitions par dépit comme `Neoooooo` ou `neooo` générées parce que le nom d'origine était déjà pris. Cela permet tout d’abord, lors du partage de son pseudo, de devoir recompter plusieurs fois en fermant un œil le nombre de lettres qu’on a répétées ainsi cela force l'élégance, épure l'interface et donne immédiatement une crédibilité institutionnelle au profil.
   2. **Un prestige inspiré et modernisé :** Cette mécanique donne un vrai poids et une dimension officielle à ce que l'on prononce. Elle s'inspire directement du système de tags de Discord ou du Gamer Tag de Xbox, mais repensée et modernisée, l'utilisateur s'approprie activement son identité en choisissant lui-même sa lettre signature.
-  3. **L'usage contextuel (**confidentialité**) :** Le joueur ne doit prononcer ou utiliser l'intégralité de son identifiant (`Neo 931 M`) **uniquement lors de l'ajout social** (partager son profil). En jeu, l'affichage dépendra de la politique du jeu partenaire. Dans _ONE_, pour préserver la confidentialité et l'immersion, on affichera **uniquement le Nom épuré** (`Neo`). Des exceptions strictes pourront être appliquées dans certains classements en montrant la dernière lettre (afin de différencier les doublons) mais cela sera abordé ici.
+  3. ****L'usage contextuel (confidentialité) :**** Le joueur ne doit prononcer ou utiliser l'intégralité de son identifiant (`Neo 931 M`) **uniquement lors de l'ajout social** (partager son profil). En jeu, l'affichage dépendra de la politique du jeu partenaire. Dans _ONE_, pour préserver la confidentialité et l'immersion, on affichera **uniquement le Nom épuré** (`Neo`). Des exceptions strictes pourront être appliquées dans certains classements en montrant la dernière lettre (afin de différencier les doublons) mais cela sera abordé ici.
   4. **Le poids de la réputation (Changement annuel) :** La restriction d'un seul changement par an transforme ce nom en véritable passeport. L'utilisateur doit assumer son identité et sa réputation sur le long terme.
 </Info>
 
 ---
 
-###   Certification du nom
+### Certification du nom
 
 Les personnalités publiques répondant à certains critères peuvent déposer un dossier pour certifier leur identité.
 
@@ -93,37 +93,52 @@ Les personnalités publiques répondant à certains critères peuvent déposer u
 
 ---
 
-###   Niveaux de Confiance
+### Niveaux de Confiance
 
 L'identité de l'utilisateur est jaugée selon une échelle de "Niveaux de Confiance" (Trust Levels) qui prouvent sa légitimité, son engagement et son humanité.
 
 <Info>
-  Dans l’environnement dans lequel on évolue, la triche, les doubles comptes, smurfs, boost et maintenant l’intelligence artificielle via plusieurs types de bots deviennent de plus en plus communs, en portant préjudice à l’intégrité de l’expérience et à l’équilibrage des joueurs. Afin de proposer un espace juste et sécurisé, nous donnons uniquement l’accès au contenu aux utilisateurs ayant certifié leur humanité et leur intégrité afin d’avoir un joueur = ID
+  Dans l’environnement dans lequel on évolue, la triche, les doubles comptes, smurfs, boost et maintenant l’intelligence artificielle avec la création de bots de plus en plus performant et dificilement identitifiable metant en préjudice l’intégrité de l’expérience et l’équilibrage des joueurs. Afin de proposer un espace juste et sécurisé, nous donnons uniquement l’accès au contenu aux utilisateurs ayant certifié leur humanité et leur intégrité afin d’avoir un joueur = ID
 </Info>
 
-**Niveau 1 : L'Empreinte Initiale (Vérification Numérique Standard)**
+**Niveau 1 : Vérification Numérique Standard**
 
 - **Méthode :** Inscription Passwordless via Magic Link ou OTP (One-Time Password).
-- **Fonctionnement :** L'utilisateur entre son adresse email. L'application interroge la base de données (ex: via Supabase ou Firebase Auth) et envoie un lien sécurisé ou un code à 6 chiffres par email. En cliquant, la session est ouverte. _Il n'y a aucun mot de passe stocké dans nos serveurs._
+- **Fonctionnement :** L'utilisateur entre son adresse email. L'application interroge la base de données et envoie un code à 6 chiffres. _Il n'y a aucun mot de passe stocké dans nos serveurs._
 - **Valeur :** Supprime la friction à l'inscription et certifie que le compte est lié à un point de contact réel (limite les bots).
 
-**Niveau 2 : Le Scellement Biométrique (Les Passkeys / WebAuthn)**
+**Niveau 2 :Les Passkeys / WebAuthn**
 
 - **Méthode :** Liaison de l'appareil physique (Smartphone / PC).
-- **Fonctionnement :** Une fois le compte créé, le système propose de créer une "Clé d'accès" (Passkey). La Membrane est alors cryptographiquement liée au FaceID, TouchID ou code PIN de l'appareil de l'utilisateur.
+- **Fonctionnement :** Une fois le compte créé, le système propose de créer une "Clé d'accès" (Passkey).
 - **Valeur :** Inviolable contre le phishing. Seul l'humain possédant l'appareil et l'empreinte biométrique peut ouvrir la session Slash.
 
-**Niveau 3 : L'Ancrage Matériel (La Cartouche Slash)**
+**Niveau 3 : Liaison avec une librairie**
+
+- **Méthode :** : Connexion API avec des plateformes tierces (Steam, Epic Games, EA, Xbox, etc.).
+- **Fonctionnement :** L'utilisateur synchronise ses comptes de jeux externes avec sa Membrane.
+
+<Tip>
+  L’objectif est de pouvoir récupérer via une API publique () :
+
+  - L’âge du compte
+  - Le volume et les jeux possédés
+  - L’historique des temps de jeu
+  - Sa liste d’amis
+</Tip>
+
+- **Valeur :** Cela permet de faire un tri et de sélectionner uniquement les informations pertinentes au premier coup d'œil, afin d'améliorer la lisibilité de son parcours et de sa progression. En une seule application et à portée de pouce, l'utilisateur a accès à :
+- Tous les jeux possédés et sur quelle librairie ils se trouvent.
+- Ses différents comptes et pseudos associés.
+- Toute sa liste de connaissances et d'amis.
+- Son temps de jeu global réuni.
+- Ses succès et accomplissements cumulés.
+
+\*\*Niveau 4 : La Cartouche \*\*
 
 - **Méthode :** Acquisition et liaison de la Cartouche physique à l'identité numérique.
 - **Fonctionnement :** Le joueur possède l'objet matériel contenant l'accès à son SLSH ID absolu.
-- **Valeur :** Prouve un investissement concret. L'identité numérique devient tangible (Hardware), augmentant massivement le "Trust Score" du profil aux yeux de l'écosystème.
-
-**Niveau 4 : La Réputation Éprouvée (Le Palier)**
-
-- **Méthode :** Évaluation algorithmique continue de l'activité.
-- **Fonctionnement :** Évolution du Palier global (ex: Palier A, Palier S) basé sur la constance du joueur à travers ses parcours.
-- **Valeur :** C'est la jauge de confiance communautaire. Un recruteur sait immédiatement qu'un "Palier S" est un utilisateur régulier et investi.
+- **Valeur :** L'identité numérique devient tangible (Hardware), portable et totalement proprietaires.
 
 **Niveau 5 : L'Identité Protégée & Institutionnelle (Le Sceau)**
 
