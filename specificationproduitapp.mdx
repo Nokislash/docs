@@ -22,7 +22,7 @@ Le langage de l’interface doit donc rejeter les clichés du jeu vidéo et adop
 - _Bibliothèque de jeux_ → **Parcours**
 - _Stats_ → **Indicateurs**
 
-## 3. Lexique & Vision
+## 3. L'identiter numérique
 
 <Info>
   La Membrane
@@ -42,6 +42,30 @@ Le langage de l’interface doit donc rejeter les clichés du jeu vidéo et adop
      **Usage de Communication :** Elle n'est pas physiquement visible dans les jeux partenaires, mais sert d'outil narratif majeur. (Ex : Lors d'un trailer annonçant un partenariat avec Valorant, montrer la Membrane s'illuminer à l'intérieur du personnage pour prouver visuellement que le jeu utilise l'écosystème Slash).
 </Info>
 
+A l'interieur de son identité centrale : deux entités strictemen distinctes dans la base de données.
+
+### Entité A : Le SLSH ID (La Donnée Machine / Back-end)
+
+C'est une suite alphanumérique unique et immuable . C'est la clé de voûte du système (et le futur lien vers les adresses cryptographiques / Web3).
+
 <Info>
-  
+  - **Format strict :** `SLSH` - `[Chiffre choisi]` - `[Mois/Année]` - `[4 Lettres aléatoires]` - `[3 Chiffres aléatoires]` - `[Lettre choisie]`
+  - **Exemple de rendu :** `SLSH - 9 - 032026 - POZM - 931 - M`
+</Info>
+
+### Entité B : Le Nom + Clés (L'Affichage Public / Front-end)
+
+C'est l'identifiant social de l'utilisateur.
+
+- **Règles de création :**
+  - Uniquement des lettres (minuscules et majuscules). Aucun symbole ni chiffre.
+  - Longueur maximum : 14 caractères.
+  - Les doublons de Noms sont **autorisés** (grâce à l'unicité du SLSH ID en arrière-plan).
+  - Changement de nom autorisé : 1/an maximum.
+
+<Info>
+  **Le Format d'Unicité Sociale :** Afin de garantir l'unicité tout en autorisant les doublons de noms, le système extrait une partie du _SLSH ID_ pour créer un identifiant social unique.
+
+  - **Format strict :** `[Nom]` - `[Les 3 Chiffres aléatoires]` - `[Lettre choisie]`
+  - **Exemple de rendu public :** `Neo 931 M`
 </Info>
