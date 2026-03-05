@@ -12,8 +12,8 @@
   },
   "colors": {
     "primary": "#122ae4",
-    "light": "#001076",
-    "dark": "#001076"
+    "light": "#ff0069",
+    "dark": "#ff0069"
   },
   "favicon": "/logo/kbjajba.png",
   "navigation": {
