@@ -7,13 +7,13 @@
     "decoration": "grid",
     "color": {
       "light": "#e8ebff",
-      "dark": "#0d0d22"
+      "dark": "#090919"
     }
   },
   "colors": {
     "primary": "#122ae4",
-    "light": "#122ae4",
-    "dark": "#122ae4"
+    "light": "#001eff",
+    "dark": "#001eff"
   },
   "favicon": "/logo/kbjajba.png",
   "navigation": {
