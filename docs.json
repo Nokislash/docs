@@ -7,13 +7,13 @@
     "decoration": "grid",
     "color": {
       "light": "#e8ebff",
-      "dark": "#000021"
+      "dark": "#000016"
     }
   },
   "colors": {
     "primary": "#122ae4",
-    "light": "#ff0069",
-    "dark": "#ff0069"
+    "light": "#ff5400",
+    "dark": "#ff5400"
   },
   "favicon": "/logo/kbjajba.png",
   "navigation": {
@@ -125,7 +125,7 @@
   },
   "logo": {
     "light": "/LOOV.png",
-    "dark": "/LOO.png"
+    "dark": "/LOOV.png"
   },
   "navbar": {
     "links": [
