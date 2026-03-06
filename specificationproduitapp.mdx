@@ -98,25 +98,35 @@ Les personnalités publiques répondant à certains critères peuvent déposer u
 L'identité de l'utilisateur est jaugée selon une échelle de "Niveaux de Confiance" (Trust Levels) qui prouvent sa légitimité, son engagement et son humanité.
 
 <Info>
-  Dans l’environnement dans lequel on évolue, la triche, les doubles comptes, smurfs, boost et maintenant l’intelligence artificielle avec la création de bots de plus en plus performant et dificilement identitifiable metant en préjudice l’intégrité de l’expérience et l’équilibrage des joueurs. Afin de proposer un espace juste et sécurisé, nous donnons uniquement l’accès au contenu aux utilisateurs ayant certifié leur humanité et leur intégrité afin d’avoir un joueur = ID
+  Dans l’environnement dans lequel on évolue, la triche, les doubles comptes, smurfs, boost et maintenant l’intelligence artificielle avec la création de bots de plus en plus performant et dificilement identitifiable metant en préjudice l’intégrité de l’expérience et l’équilibrage des joueurs. Afin de proposer un espace juste et sécurisé, nous donnons uniquement l’accès au contenu aux utilisateurs ayant certifié leur humanité et leur intégrité selon 5 niveaux.
 </Info>
 
-**Niveau 1 : Vérification Numérique Standard**
+> **Niveau 1 : Vérification Numérique Standard**
 
 - **Méthode :** Inscription Passwordless via Magic Link ou OTP (One-Time Password).
 - **Fonctionnement :** L'utilisateur entre son adresse email. L'application interroge la base de données et envoie un code à 6 chiffres. _Il n'y a aucun mot de passe stocké dans nos serveurs._
-- **Valeur :** Supprime la friction à l'inscription et certifie que le compte est lié à un point de contact réel (limite les bots).
+- **Valeur :** Supprime la friction à l'inscription et certifie que le compte est lié à un point de contact réel (limite les bots), pas de mots de passe stockés dans nos serveurs, c’est quelque chose en moins à protéger.
 
-**Niveau 2 :Les Passkeys / WebAuthn**
+  <Info>
+    **Valeur :**
+
+    **Minimisation drastique de la surface d'attaque :**  en ne stockant aucune clé d'accès, nous éliminons le vecteur de piratage numéro un mondial, la fuite de base de données. En cas de compromission de nos serveurs, les hackers n'ont aucun mot de passe à exploiter. La sécurité de l'accès est déportée vers la messagerie ou le "terminal" physique de l'utilisateur, ce qui solidifie notre promesse de "Passeport Numérique" institutionnel.
+
+    **Zéro Friction :** Le système de "Magic Link" ou d'OTP réduit le temps d'onboarding à quelques secondes. Nous éliminons instantanément les abandons de création de compte liés aux règles de mots de passe complexes.
+
+    **Support Client :** Les requêtes liées aux "mots de passe oubliés" représentent historiquement jusqu'à 40 % de la charge d'un support technique. (https://www.forbes.com/councils/forbestechcouncil/2023/03/23/embracing-the-end-of-the-password-here-and-now/)
+  </Info>
+
+> **Niveau 2 : Les Passkeys / WebAuthn**
 
 - **Méthode :** Liaison de l'appareil physique (Smartphone / PC).
 - **Fonctionnement :** Une fois le compte créé, le système propose de créer une "Clé d'accès" (Passkey).
-- **Valeur :** Inviolable contre le phishing. Seul l'humain possédant l'appareil et l'empreinte biométrique peut ouvrir la session Slash.
+- **Valeur :** Pratiquement Inviolable contre le phishing. Seul l'humain possédant l'appareil et l'empreinte biométrique peut ouvrir la session Slash.
 
 **Niveau 3 : Liaison avec une librairie**
 
 - **Méthode :** : Connexion API avec des plateformes tierces (Steam, Epic Games, EA, Xbox, etc.).
-- **Fonctionnement :** L'utilisateur synchronise ses comptes de jeux externes avec sa Membrane.
+- **Fonctionnement :** L'utilisateur synchronise ses comptes de jeux externes.
 
 <Tip>
   L’objectif est de pouvoir récupérer via une API publique () :
@@ -134,19 +144,79 @@ L'identité de l'utilisateur est jaugée selon une échelle de "Niveaux de Confi
 - Son temps de jeu global réuni.
 - Ses succès et accomplissements cumulés.
 
-\*\*Niveau 4 : La Cartouche \*\*
+> **Niveau 4 : La Preuve d'Humanité** 
 
-- **Méthode :** Acquisition et liaison de la Cartouche physique à l'identité numérique.
-- **Fonctionnement :** Le joueur possède l'objet matériel contenant l'accès à son SLSH ID absolu.
-- **Valeur :** L'identité numérique devient tangible (Hardware), portable et totalement proprietaires.
+- **Méthode :** Vérification via des protocoles d'identité décentralisés (ex: le réseau _World_) ou institutionnels (ex: le futur _Passeport Numérique Européen_ / EUDI Wallet prévu pour l'automne 2026).
+- **Fonctionnement :** L'utilisateur lie son SLSH ID à une identité biométrique ou civile externe reconnue par les États ou la cryptographie.
+- **Valeur :** C’est la garantie absolue qu’il y a un humain unique derrière chaque compte. Cela rend la création de comptes multiples (smurfs) physiquement impossible à ce niveau, ainsi nous pouvons créer un environnement plus sain et sûr pour les joueurs. C’est le palier requis pour que le profil soit utilisé comme document à valeur et un poids légal.
 
-**Niveau 5 : L'Identité Protégée & Institutionnelle (Le Sceau)**
+> **Niveau 5 : L'Identité matérialisée (La Cartouche)**
 
-- **Méthode :** Validation manuelle (Dossier) ou protocoles externes (Proof of Personhood).
-- **Fonctionnement :** Octroi du logo "Vérifié" pour les personnalités publiques (bloquant l'usurpation de Nom). À terme, éligible à devenir une pièce d'identité certifiée pour des partenaires majeurs (écoles, marques).
+- **Méthode :** Appairage matériel avec la Cartouche physique Slash.
+- **Fonctionnement :** L'utilisateur lie sa Membrane à l'objet physique (la Cartouche) qu'il détient chez lui, transformant l'objet en "Hardware Wallet" (coffre-fort physique) de son identité.
+
+  <Info>
+    - **Valeur :** Ce palier va bien au-delà de la simple sécurité, c'est une rupture d'usage fondamentale reposant sur 4 piliers :
+      1. **La Souveraineté de l'utilisateur :** Le joueur devient _réellement_ propriétaire de son identité numérique et de ses datas. Ses données ne sont plus simplement louées sur le serveur fermé d'un éditeur de jeu. Si un jeu partenaire ferme ses portes, la progression et l'historique survivent à l'intérieur de sa cartouche matérielle.
+      2. **La Portabilité absolue des données :** L'identité n'est plus coincée dans le Cloud ou sur un seul PC. Le joueur la transporte physiquement. Il a son parcours, son Palier et son identité littéralement dans la poche, prêts à être déployés n'importe où.
+      3. **La Rapidité de reconnaissance (Frictionless) :** L'arrivée dans un nouvel environnement physique ou virtuel (un tournoi eSport, une LAN, un événement partenaire, ou une école) devient instantanée. Il suffit de connecter la Cartouche pour que le nouvel écosystème reconnaisse instantanément l'identité absolue du joueur, son Palier et ses droits d'accès, sans aucune configuration fastidieuse.
+      4. **Un Socle commun :** La Cartouche n'est oas une fins en soi, elle devien l'infrastructure de base. C'est le socle technologique fiable et certifié sur lequel des tiers (studios de développement, marques, recruteurs) vont pouvoir construire de nouvelles expériences, des systèmes de récompenses, ou vérifier des compétences.
+  </Info>
 
 ## Etapes de connexion
 
-Mots de passe
+Lors de son inscription qui viendras apres un courte introduction contextuel qui pour le moment vas etre ignorer. Il doit choisir tout d'abords donc pour la création de son compte, en précisant que cette action
 
-L'objectif étant de devenir un passeport numérique reconnu, la solidité du compte ne peut pas reposer sur un simple mot de passe (obsolète et piratable). L'écosystème repose sur une architecture **"Passwordless"** (sans mot de passe) stricte, divisée en plusieurs niveaux de confiance qui prouvent la légitimité et l'humanité du joueur.
+- Un chifre (en précisant que cette action est ireversible) de 0-9
+- Une lettre (en précisant que cette action est ireversible)
+- Son Nom
+- Une couleur (entre une pallete de 4 couleurs
+
+La courte introduction serivras a faire comprendre au joueurs que c'est un moment important et qu'il prennent le temps d'y reflechir.
+
+La couleur choisie modifie la couleur de la membranes, il y a donc 4 :
+
+<Tip>
+  **Singularité :** Violet profond et néon.\
+  **Plasma :** Rose électrique et magenta.\
+  **Boréal :** Bleu nuit et émeraude.\
+  **Fusion :** Orange intense et cuivré.
+</Tip>
+
+Croquis de la page "ID" du joueurs. 
+
+<Frame>
+  <img
+    src="/images/456564564564.png"
+    alt="456564564564"
+    title="456564564564"
+    className="mx-auto"
+    style={{ width:"55%" }}
+  />
+</Frame>
+
+### _Travail en cours_
+
+<Frame>
+  <img
+    src="/images/eazeas.png"
+    alt="Eazeas"
+    title="Eazeas"
+    className="mx-auto"
+    style={{ width:"40%" }}
+  />
+</Frame>
+
+### _Travail en cours_
+
+<Frame>
+  <img
+    src="/images/ezaeasa.png"
+    alt="Ezaeasa"
+    title="Ezaeasa"
+    className="mx-auto"
+    style={{ width:"38%" }}
+  />
+</Frame>
+
+### _Travail en cours_
