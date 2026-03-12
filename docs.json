@@ -7,12 +7,12 @@
     "decoration": "grid",
     "color": {
       "light": "#e8ebff",
-      "dark": "#090919"
+      "dark": "#2a2b2e"
     }
   },
   "colors": {
-    "primary": "#122ae4",
-    "light": "#001eff",
+    "primary": "#0400ff",
+    "light": "#233bff",
     "dark": "#001eff"
   },
   "favicon": "/logo/kbjajba.png",
@@ -177,5 +177,8 @@
       "family": "Sora",
       "weight": 600
     }
+  },
+  "banner": {
+    "dismissible": false
   }
 }
